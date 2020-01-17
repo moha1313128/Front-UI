@@ -42,7 +42,7 @@
 .btn {
     display: inline;
     background-color: $light-color;
-    color: #ccc;
+    color: rgb(2, 2, 2);
     padding: 0.4rem 1.3rem;
     border: none;
     cursor: pointer;
@@ -54,25 +54,25 @@
     &.btn-primary {
         @include set-background($primary-color);
         &:hover  {
-            background: lighen($primary-color, 5%);
+            background: lighten($primary-color, 5%);
         }
     }
     &.btn-dark {
         @include set-background($dark-color);
         &:hover  {
-            background: lighen($dark-color, 5%);
+            background: lighten($dark-color, 5%);
         }
     }
     &.btn-success {
         @include set-background($success-color);
         &:hover  {
-            background: lighen($success-color, 5%);
+            background: lighten($success-color, 5%);
         }
     }
     &.btn-danger {
         @include set-background($danger-color);
         &:hover  {
-            background: lighen($danger-color, 5%);
+            background: lighten($danger-color, 5%);
         }
     }
     &:hover {
